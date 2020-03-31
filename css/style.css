@@ -172,9 +172,11 @@ body, html{
 
     .box-1{
         width: 100%;
+        border-bottom-left-radius: 0;
     }
     .box-2{
         width: 100%;
+        border-bottom-right-radius: 0;
     }
 
     .text-box{
