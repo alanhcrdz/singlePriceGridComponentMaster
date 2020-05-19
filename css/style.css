@@ -6,9 +6,11 @@
     font-family: Karla;
 }
 
-body, html{
+body{
     height: 100%;
     background-color: hsl(218, 22%, 67%);
+
+
 }
 
 
@@ -16,14 +18,17 @@ body, html{
 .container .box{
     margin: 0 auto;
     width: 800px;
-    height: 500px;
+    height: auto;
+
+
+
    
 }
 
 
 
 .container{
-    padding: 140px 20px;
+    padding: 30px 20px;
     width: 100%;
     margin: 0 auto;
     max-width: 1440px;
@@ -40,14 +45,15 @@ body, html{
 }
 .text-box p, h3, h2{
     padding-left: 30px;
+
 }
 
 
 /* adding color palette */
 .container h2{
-
     color: hsl(179, 62%, 43%);
     font-weight: 700;
+
 
 }
 
@@ -55,6 +61,7 @@ body, html{
     color: hsl(71, 73%, 54%);
     font-weight: 700;
     margin-top: 20px;
+
 }
 
 .container .text-box p{
@@ -62,12 +69,13 @@ body, html{
     font-size: 16px;
     margin-top: 10px;
     font-weight: 400;
+
 }
 
 .container .prices-box{
     display: flex;
     width: 100%;
-    height: 300px;
+
     
 }
 
@@ -117,10 +125,11 @@ body, html{
 
 
 .box-2{
+
     text-align: left;
     width: 50%;
     background-color: hsl(179, 62%, 43%) ;
-    padding: 40px 5%;
+    padding: 30px 5%;
     border-bottom-right-radius: 10px;
 }
 
@@ -146,10 +155,16 @@ body, html{
 
 @media screen and (max-width:991px ){
     /* start of large tablet styles */
+
+    body{
+        height: auto;
+
+    }
     .container .box{
         margin: 0 auto;
         width: 100%;
-        height: 500px;
+        height: auto;
+
        
     }
     
@@ -161,27 +176,39 @@ body, html{
     .container .prices-box{
         display: inline-block;
         width: 100%;
-        height: 300px;
+
+
+
         
     }
 
     .container .box{
+        width: 100%;
         max-width: 400px;
+
+
+
         
     }
 
     .box-1{
         width: 100%;
         border-bottom-left-radius: 0;
+        height: auto;
+
     }
     .box-2{
         width: 100%;
+        height: auto;
         border-bottom-right-radius: 0;
+
+
     }
 
     .text-box{
         width: 100%;
         height: auto;
+
     }
     
 }
@@ -191,7 +218,7 @@ body, html{
     .container .box{
         margin: 0 auto;
         max-width: 300px;
-        width: 100%
+        width: 100%;
       
        
     }
@@ -199,8 +226,7 @@ body, html{
     .container .prices-box{
         display: inline-block;
         width: 100%;
-        height: 300px;
-        
+
     }
 
     .container .box{
@@ -214,6 +240,8 @@ body, html{
     .box-2{
         width: 100%;
         border-bottom-right-radius: 0;
+
+
     }
 
     .text-box{
